@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Filmes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .filme {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .filme img {
+            width: 100px;
+            height: 150px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .filme-info {
+            flex: 1;
+        }
+        .filme-info h3 {
+            margin: 0 0 10px;
+        }
+        .filme-info p {
+            margin: 0 0 10px;
+            color: #555;
+        }
+        .botao-trailer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+        .botao-trailer:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site de Filmes</h1>
+        <p>Descubra filmes incríveis e assista aos trailers!</p>
+    </header>
+    <main>
+        <div class="filme">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/b/bc/Interstellar_Filme_2014.jpg" alt="Capa do filme Interestelar">
+            <div class="filme-info">
+                <h3>Interestelar (2014)</h3>
+                <p>Um grupo de exploradores embarca em uma jornada interestelar através de um buraco de minhoca em busca de um novo lar para a humanidade.</p>
+                <a href="https://www.youtube.com/watch?v=zSWdZVtXT7E" target="_blank" class="botao-trailer">Assistir Trailer</a>
+            </div>
+        </div>
+        <div class="filme">
+            <img src="https://upload.wikimedia.org/wikipedia/pt/e/e9/Whiplash_%28poster%29.jpg" alt="Capa do filme Whiplash">
+            <div class="filme-info">
+                <h3>Whiplash (2014)</h3>
+                <p>Um jovem baterista busca a excelência em uma escola de música de prestígio, enfrentando a pressão de um instrutor exigente e implacável.</p>
+                <a href="https://www.youtube.com/watch?v=7d_jQycdQGo" target="_blank" class="botao-trailer">Assistir Trailer</a>
+            </div>
+        </div>
+        <div class="filme">
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f5/Mid90s.png" alt="Capa do filme Mid90s">
+            <div class="filme-info">
+                <h3>Mid90s (2018)</h3>
+                <p>Nos anos 90, um adolescente encontra amizade e pertencimento ao se juntar a um grupo de skatistas em Los Angeles.</p>
+                <a href="https://www.youtube.com/watch?v=IgP8sDCbE3s" target="_blank" class="botao-trailer">Assistir Trailer</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
